@@ -23,3 +23,9 @@ export const LogoImage = styled.img`
   margin-right: 300px;
   /* margin-left: 200px;  Espaçamento à esquerda da imagem */
 `;
+
+export const Button = styled.button`
+background-color: pink;
+color: #7d003a;
+font-weight: bold;
+`
