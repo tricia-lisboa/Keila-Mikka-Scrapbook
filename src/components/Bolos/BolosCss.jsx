@@ -16,6 +16,18 @@ export const Container = styled.div`
   background-color: #FFF5F2;
   border: 1px solid #FFF5F2;
   border-radius: 8px;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+  }
+
+  @media (max-width: 320px) {
+    padding: 5px;
+  }
 `;
 
 export const Grid = styled.div`
@@ -24,6 +36,14 @@ export const Grid = styled.div`
 
   @media (max-width: 768px) {
     gap: 10px;
+  }
+
+  @media (max-width: 480px) {
+    gap: 5px;
+  }
+
+  @media (max-width: 320px) {
+    gap: 2px;
   }
 `;
 
@@ -36,6 +56,14 @@ export const Section = styled.section`
   @media (max-width: 768px) {
     padding: 10px;
   }
+
+  @media (max-width: 480px) {
+    padding: 5px;
+  }
+
+  @media (max-width: 320px) {
+    padding: 2px;
+  }
 `;
 
 export const Title = styled.h3`
@@ -46,6 +74,14 @@ export const Title = styled.h3`
   @media (max-width: 768px) {
     font-size: 1.2rem;
   }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const Price = styled.p`
@@ -55,10 +91,26 @@ export const Price = styled.p`
   @media (max-width: 768px) {
     font-size: 1rem;
   }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const Detail = styled.p`
   margin-bottom: 5px;
+
+  @media (max-width: 480px) {
+    margin-bottom: 3px;
+  }
+
+  @media (max-width: 320px) {
+    margin-bottom: 2px;
+  }
 `;
 
 export const Highlight = styled.span`
@@ -89,6 +141,14 @@ export const Button = styled.a`
     width: 100%;
     font-size: 0.9rem;
   }
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 0.7rem;
+  }
 `;
 
 export const Centro = styled.div`
@@ -102,6 +162,16 @@ export const Centro = styled.div`
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  @media (max-width: 480px) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 320px) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 `;
 
 export const Productdetail = styled.div`
@@ -113,6 +183,14 @@ export const Productdetail = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 20px;
+  }
+
+  @media (max-width: 480px) {
+    gap: 10px;
+  }
+
+  @media (max-width: 320px) {
+    gap: 5px;
   }
 `;
 
@@ -139,13 +217,29 @@ export const Imagem = styled.div`
       max-width: 50%;
       height: auto;
     }
+
+    @media (max-width: 480px) {
+      max-width: 40%;
+    }
+
+    @media (max-width: 320px) {
+      max-width: 50%;
+    }
   }
 `;
 
-export const CarouselContainer = styled.div`
+export const CarouselContainer  = styled.div`
   width: 500px;
 
   @media (max-width: 768px) {
+    width: 70%;
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+
+  @media (max-width: 320px) {
     width: 100%;
   }
 `;
